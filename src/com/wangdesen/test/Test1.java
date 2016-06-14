@@ -14,5 +14,17 @@ public class Test1 {
 		sf1.anOperation("Shape one");
 		sf2.anOperation("Shape two");
 	}
+	
+	public void test1(String args){
+		System.out.println("test");
+	}
+	
+	public void test2(String args){
+		System.out.println("test");
+		if(true){
+			System.out.println("");
+		}
+		System.out.println("sas");
+	}
 
 }
